@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+.borda{
+    border: 2px solid skyblue;
+} 
+.lista-repos{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    justify-content: center;
+}
+.card-repo{
+    width: fit-content ;
+    padding: 15px 30px;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+.card-repo:hover {
+    background-color: aliceblue;
+    
+}
+.card-repo:hover h3, .card-repo:hover a{
+    color: black;
+}
+.Item{
+    display:flex;
+    flex-direction: column;
+}
+li{
+    text-decoration: none;
+    list-style:none;
+}
+.title{
+    margin: 0 auto;
+
+}
+a{
+    text-decoration: none;
+    font-size: 19px;
+}
